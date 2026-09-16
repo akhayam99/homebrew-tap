@@ -1,8 +1,8 @@
 # Template for the Homebrew cask. The release workflow renders version + sha256
 # and pushes the result to akhayam99/homebrew-tap (Casks/goodboy.rb).
 cask "goodboy" do
-  version "0.2.34"
-  sha256 "01a36e651da087424f202fd0eecdd2fbf25781f15cfb3499001162766d7eae07"
+  version "0.3.0"
+  sha256 "c7d30736347a9a1e640e1729c7d87cfe2e7aa0012f1b0913e873791fa3b6e4ef"
 
   url "https://github.com/akhayam99/goodboy/releases/download/v#{version}/Goodboy_#{version}_universal.dmg"
   name "Goodboy"
